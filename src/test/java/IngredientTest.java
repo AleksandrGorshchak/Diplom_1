@@ -14,7 +14,7 @@ public class IngredientTest {
     public void getIngredientPriceTest() {
         Ingredient ingredient = new Ingredient(type, name, price);
         float expected = 100;
-        assertEquals(expected, ingredient.getPrice(), 0);
+        assertEquals(expected, ingredient.getPrice(), 0.000001);
     }
 
     @Test

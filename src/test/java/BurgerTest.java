@@ -77,7 +77,7 @@ public class BurgerTest {
         float expectedPrice = price * 2 + price;
         float actualPrice = burger.getPrice();
 
-        assertEquals(expectedPrice, actualPrice, 2);
+        assertEquals(expectedPrice, actualPrice, 0.000001);
     }
 
     @Test

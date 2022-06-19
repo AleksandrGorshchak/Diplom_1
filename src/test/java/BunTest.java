@@ -19,7 +19,7 @@ public class BunTest {
     public void getBunPriceTest() {
         Bun bun = new Bun(name, price);
         float expected = 100;
-        assertEquals(expected, bun.getPrice(), 0);
+        assertEquals(expected, bun.getPrice(), 0.000001);
     }
 
 }
